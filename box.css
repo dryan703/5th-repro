@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #c8ddf0;
+    background-color: hsl(208, 58%, 86%);
 }
 .set{
     max-width: 1200px;
@@ -81,4 +81,7 @@ button{
 }
 p{
     font-size: 17px;
+}
+h1{
+    color: rgb(146, 96, 154);
 }
