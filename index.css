@@ -46,3 +46,17 @@ p{
     margin: 3px;
     background-color: rgb(230, 230, 249);
 }
+
+.navbar ul{
+    list-style-type: none;
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
