@@ -16,3 +16,48 @@
  .navbar li{
     float: left;
  }
+h1{
+   color: blue;
+}
+span{
+   color: orange;
+}
+.btn{
+   display: flex;
+   gap: 20px;
+}
+.btn-1, .btn-2{
+   margin-top: 8px;
+   padding: 8px 16px;
+   display: inline-block;
+   border: none;
+   border-radius: 5px;
+   font-size: 17px;
+   text-decoration: none;
+}
+.btn-1{
+   background-color: blue;
+   color: white;
+}
+.btn-2{
+   background-color: white;
+   color: blue;
+}
+.txt-content{
+   padding: 20px;
+   margin: 0px;
+}
+.content{
+   display: flex;
+   border-radius: 4px;
+   background-color: white;
+   width: 670px;
+}
+.img-content{
+   padding: 70px;
+   margin: 0px;
+}
+img{
+   height: 170px;
+   width: 190px;
+}
