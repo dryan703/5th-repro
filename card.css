@@ -1,19 +1,23 @@
 
 .navbar ul{
     list-style-type: none;
-    background-color: white;
+    background-color: rgb(254, 252, 252);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    width: 710px;
+    border-radius: 20px;
  }
- .navbar a{
-    color: black;
+.navbar a{
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
  }
- .navbar li{
+ .we{
+   color: black;
+ }
+.navbar li{
     float: left;
  }
 h1{
@@ -26,14 +30,21 @@ span{
    display: flex;
    gap: 20px;
 }
-.btn-1, .btn-2{
-   margin-top: 8px;
+.btn-1, .btn-2, .btn-nav{
+   margin: 8px;
    padding: 8px 16px;
+   color: white;
    display: inline-block;
    border: none;
    border-radius: 5px;
    font-size: 17px;
    text-decoration: none;
+   border: 1px solid black;
+}
+.btn-nav{
+   background-color: blue;
+   display: inline-block;
+   color: white;
 }
 .btn-1{
    background-color: blue;
@@ -42,9 +53,10 @@ span{
 .btn-2{
    background-color: white;
    color: blue;
+   
 }
 .txt-content{
-   padding: 20px;
+   padding: 30px;
    margin: 0px;
 }
 .content{
@@ -52,12 +64,33 @@ span{
    border-radius: 4px;
    background-color: white;
    width: 670px;
+   height: 380px;
+   padding: 20px;
 }
 .img-content{
-   padding: 70px;
+   padding: 20px;
    margin: 0px;
 }
 img{
-   height: 170px;
-   width: 190px;
+   height: 350px;
+   width: 250px;
+   size-adjust: 30px;
+   border: none;
+   border-radius: 20px;
+}
+.assgn-con{
+   padding: 20px;
+   margin: 40px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(221, 246, 246);
+   width: 820px;
+}
+.assgn-card{
+   padding: 20px;
+   margin: 40px;
+   border: none;
+   border-radius: 20px;
+   background-color: white;
+   width: 690px;
 }
