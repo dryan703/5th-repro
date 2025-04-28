@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: 
+}
+.header {
+   background-image: url(set/set\ 2.jpeg);
+   background-position: center;
+   background-size: cover;
+   padding: 2rem 1rem;
+   color: white;
+}
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.logo img {
+   width: 35px; 
+   padding-right: 7px;
+}
+.logo {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+}
+.main-nav {
+    display: flex;
+    gap: 32px;
+}
+.main-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white
+}
+.main-nav a:hover {
+    border-bottom: 1px sold orange;
+    color: orange;
+}
+.contact{
+    color: orange;
+    text-decoration: none;
+}
+.nav-btn{
+    background-color: orange;
+    border-radius: 25px;
+    color: white;
+}
+.nav-btn:hover{
+    background-color: rgb(202, 132, 10);
+}
+.nav-content {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: white;
+}
+.nav-btn-right{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    color: white;
+}
+.nav-content h1{
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 28px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .25s;
+}
+.master-content{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+h5{
+    color: rgb(252, 169, 14);
+    font-size: 10px;
+}
+.master-content h3{
+    font-size: 2rem;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.master-content p {
+    font-size: 12px;
+}
+.card-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+.card h4{
+    margin-bottom: 10px;
+}
+.card{
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 15%;
+    padding: 20px;
+    margin: 10px;
+}
+.card1{
+    background-color: rgb(2, 2, 39);
+    color: white;
+}
+.card2{
+    background-color: white;
+    color: black;
+}
+.card3{
+    background-color: rgb(2, 2, 39);
+    color: white;
+}
+.card4{
+    background-color: white;
+    color: black;
+}

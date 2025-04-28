@@ -35,7 +35,6 @@ span{
    padding: 8px 16px;
    color: white;
    display: inline-block;
-   border: none;
    border-radius: 5px;
    font-size: 17px;
    text-decoration: none;
@@ -83,14 +82,15 @@ img{
    margin: 40px;
    border: none;
    border-radius: 10px;
-   background-color: rgb(221, 246, 246);
+   background-color: white;
    width: 820px;
 }
 .assgn-card{
    padding: 20px;
    margin: 40px;
-   border: none;
+   border: 1px solid rgb(247, 237, 237);
    border-radius: 20px;
    background-color: white;
    width: 690px;
+   height: 480px;
 }
