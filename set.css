@@ -130,3 +130,52 @@ margin-top: 20px;
 input, .form-btn {
     display: block;
 }
+.personal {
+    text-align: center;
+    padding: 40px 20px;
+}
+.personal-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-img img {
+    width: 620px;
+    height: 400px;
+    padding-left: 50px;
+}
+.form-container .form-con {
+    border: 2px solid transparent;
+}
+.cap {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(3, 3, 52);
+}
+.cap-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.foot-img img {
+    width: 40px;
+}
+.pxt {
+    color: aquamarine;
+}
+.img-ww{
+    margin-top: 10px;
+}
+.qick h4 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.qick{
+    gap: 20px;
+}
+li{
+    text-align: left;
+    margin-bottom: 10px;
+}
