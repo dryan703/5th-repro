@@ -130,21 +130,25 @@ margin-top: 20px;
 input, .form-btn {
     display: block;
 }
-.personal {
+.personal{
+    width: 80%;
+    margin: auto;
     text-align: center;
-    padding: 40px 20px;
 }
-.personal-container{
+.form-we {
     display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
 }
-.form-img img {
-    width: 620px;
-    height: 400px;
-    padding-left: 50px;
+.form-img img{
 }
-.form-container .form-con {
-    border: 2px solid transparent;
+.form-container input, .form-container textarea {
+    width: 100px;
+    padding: 11px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid rgb(188, 185, 185);
 }
 .cap {
     text-align: center;
@@ -178,4 +182,7 @@ input, .form-btn {
 li{
     text-align: left;
     margin-bottom: 10px;
+}
+@media (max-width:900px) {
+    
 }
